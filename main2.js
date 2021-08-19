@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
  
   agGrid
     .simpleHttpRequest({
-      url: 'https://filebin.net/qhaxvyhilj0o8w8b/canvasdata.json',
+      url: 'https://raw.githubusercontent.com/lolamigas/canvas/main/canvasdata.json',
     })
     .then(function (data) {
       gridOptions.api.setRowData(data);
