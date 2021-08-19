@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
  
   agGrid
     .simpleHttpRequest({
-      url: 'https://raw.githubusercontent.com/lolamigas/canvas/main/canvasdata.json',
+      url: 'https://www.ag-grid.com/example-assets/olympic-winners.json',
     })
     .then(function (data) {
       gridOptions.api.setRowData(data);
